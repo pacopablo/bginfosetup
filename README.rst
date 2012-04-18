@@ -45,9 +45,9 @@ on an XP or 2003 machine.
 Building the Installer
 ----------------------
 
- # Double-click on the ``bginfosetup.iss`` file.  This should launch InnoSetup_
- # Build the project by pressing ``Ctrl-F9``, the toolbar button, or selecting
-  ``Build->Compile`` from the menu.
+#. Double-click on the ``bginfosetup.iss`` file.  This should launch InnoSetup_
+#. Build the project by pressing ``Ctrl-F9``, the toolbar button, or selecting
+   ``Build->Compile`` from the menu.
 
 If no errors are encountered, the setup file, ``bgsetup.exe`` should be
 located in ``C:\bgsetupinfo\Output\``
