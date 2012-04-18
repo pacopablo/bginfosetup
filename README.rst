@@ -88,6 +88,13 @@ desired, and save it as ``logon.bgi``.  Then replace the provided ``logon.bgi``
 with the newly created template.  One can then build the installer following
 the instructions above
 
+Versioning
+----------
+
+Since this project is wrapping BgInfo, I have decided to follow the BgInfo
+version number.  I have added a revsion number to the BgInfo version to
+reflect the **build** of the installer script.
+
 TODO
 ----
 
