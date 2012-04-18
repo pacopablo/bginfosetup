@@ -19,11 +19,11 @@ for one's own use.
 Requirements
 ------------
 
-Download the following
+Download the following:
 
-# BgInfo
-# InnoSetup
-# ``bginfosetup.iss`` file from this project
+ # BgInfo
+ # InnoSetup
+ # ``bginfosetup.iss`` file from this project
 
 Prep
 ----
@@ -33,20 +33,20 @@ series machine.  InnoSetup_ will work fine on an XP or Server 2003 machine.
 The path to the BgInfo_ files will need to be changed to reflect its location
 on an XP or 2003 machine.
 
-# Clone the project to ``C:\bginfosetup``
+ # Clone the project to ``C:\bginfosetup``
 
-  ::
+   ::
 
-   git clone git://github.com/pacopablo/bginfosetup C:\bginfosetup
+     git clone git://github.com/pacopablo/bginfosetup.git C:\bginfosetup
 
-# Install InnoSetup_
-# Unzip BgInfo_ to ``%USERPROFILE%\Downloads\BGInfo``
-
+ # Install InnoSetup_
+ # Unzip BgInfo_ to ``C:\bginfosetup\``
+ 
 Building the Installer
 ----------------------
 
-# Double-click on the ``bginfosetup.iss`` file.  This should launch InnoSetup_
-# Build the project by pressing ``Ctrl-F9``, the toolbar button, or selecting
+ # Double-click on the ``bginfosetup.iss`` file.  This should launch InnoSetup_
+ # Build the project by pressing ``Ctrl-F9``, the toolbar button, or selecting
   ``Build->Compile`` from the menu.
 
 If no errors are encountered, the setup file, ``bgsetup.exe`` should be
