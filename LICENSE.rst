@@ -28,3 +28,9 @@ slightly frightening reflection on the current copyright system.  Anyway, have
 fun, I hope this helps.
 
 -John Hampton <pacopablo@pacopablo.com>
+
+.. links
+
+.. _BgInfo: http://technet.microsoft.com/en-us/sysinternals/bb897557N
+.. _InnoSetup: http://www.jrsoftware.org/isinfo.php
+.. _Pascal: http://en.wikipedia.org/wiki/Pascal_(programming_language)

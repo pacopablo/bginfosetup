@@ -76,6 +76,23 @@ then save it to ``C:\Program Files\BGInfo\logon.bgi`` [#f2]_ and the changes wil
 preserved for the next logon.  Additionally, one can run ``BGInfo`` found
 under ``Start->Accessories->BGInfo`` to apply the changes immediately.
 
+Customize Installer Config
+--------------------------
+
+As one may have surmised, the installer is crated by InnoSetup_.  Therefore,
+to customize the installer, one need only modify the ``bginfosetup.iss`` file.
+The `InnoSetup Documentation`_ is a great resource.
+
+To ship a different default template, simply run BgInfo, create the template
+desired, and save it as ``logon.bgi``.  Then replace the provided ``logon.bgi``
+with the newly created template.  One can then build the installer following
+the instructions above
+
+TODO
+----
+
+#. Create a silent install and uninstall so that it can be deployed by tools
+   such as LANDesk_
 
 .. rubric:: Footnoes
 
@@ -91,6 +108,9 @@ under ``Start->Accessories->BGInfo`` to apply the changes immediately.
 .. _Group Policy: http://forum.sysinternals.com/topic17828_post89946.html#89946
 .. _InnoSetup: http://www.jrsoftware.org/isinfo.php
 .. _pacopablo-bginfosetup-4.16.1.zip: https://github.com/pacopablo/bginfosetup/zipball/4.16.1
+.. _GitHub: http://github.com
+.. _LANDesk: http://www.landesk.com
+.. _InnoSetup Documentation: http://www.jrsoftware.org/ishelp/
 
 .. images
 
