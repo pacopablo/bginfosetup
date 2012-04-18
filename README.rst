@@ -28,12 +28,14 @@ Download the following:
 Prep
 ----
 
-#. Unzip ``pacopablo-bginfosetup-4.16.1-beta.zip`` to ``C:\bginfosetup``
+#. Unzip ``pacopablo-bginfosetup-4.16.1.zip`` to ``C:\bginfosetup``
 
    |unzip_project|
 
-#. Move ``bginfosetup.iss`` and ``logon.bgi`` from
-   ``C:\bginfosetup\pacopablo-bginfosetup-4.16.1-beta`` to ``C:\bginfosetup``
+#. Unhelpfully, GiHub_ has packged the files into a directory labeled
+   ``pacopablo-bginfosetup-4.16.1-XXXX.zip``, where ``XXXX`` is some part of a
+   hash. Move ``bginfosetup.iss`` and ``logon.bgi`` from the unzipped
+   directory to ``C:\bginfosetup``
 
 #. Install InnoSetup_
 #. Unzip BgInfo_ to ``C:\bginfosetup\``
@@ -88,7 +90,7 @@ under ``Start->Accessories->BGInfo`` to apply the changes immediately.
 .. _BgInfo: http://technet.microsoft.com/en-us/sysinternals/bb897557N
 .. _Group Policy: http://forum.sysinternals.com/topic17828_post89946.html#89946
 .. _InnoSetup: http://www.jrsoftware.org/isinfo.php
-.. _pacopablo-bginfosetup-4.16.1-beta.zip: https://github.com/pacopablo/bginfosetup/zipball/tags/4.16.1-beta
+.. _pacopablo-bginfosetup-4.16.1.zip: https://github.com/pacopablo/bginfosetup/zipball/4.16.1
 
 .. images
 
