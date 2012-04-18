@@ -23,17 +23,17 @@ Download the following:
 
 #. BgInfo_
 #. InnoSetup_
-#. This project (pacopablo-bginfosetup-ba1406e.zip_)
+#. This project (pacopablo-bginfosetup-4.16.1beta.zip_)
 
 Prep
 ----
 
-#. Unzip ``pacopablo-bginfosetup-ba1406e.zip`` to ``C:\bginfosetup``
+#. Unzip ``pacopablo-bginfosetup-4.16.1-beta.zip`` to ``C:\bginfosetup``
 
    |unzip_project|
 
 #. Move ``bginfosetup.iss`` and ``logon.bgi`` from
-   ``C:\bginfosetup\pacopablo-bginfosetup-ba1406e`` to ``C:\bginfosetup``
+   ``C:\bginfosetup\pacopablo-bginfosetup-4.16.1-beta`` to ``C:\bginfosetup``
 
 #. Install InnoSetup_
 #. Unzip BgInfo_ to ``C:\bginfosetup\``
@@ -43,9 +43,9 @@ Building the Installer
 
 #. Double-click on the ``bginfosetup.iss`` file.  This should launch InnoSetup_
 #. Build the project by pressing ``Ctrl-F9``, the toolbar button
-   |toolbar_compile|, or selecting ``Build->Compile`` from the menu.
+   or selecting ``Build->Compile`` from the menu.
 
-If no errors are encountered, the setup file, ``bgsetup.exe`` should be
+If no errors are encountered, the setup file, ``bginfosetup.exe`` should be
 located in ``C:\bgsetupinfo\Output\``
 
 Running the installer
@@ -88,9 +88,8 @@ under ``Start->Accessories->BGInfo`` to apply the changes immediately.
 .. _BgInfo: http://technet.microsoft.com/en-us/sysinternals/bb897557N
 .. _Group Policy: http://forum.sysinternals.com/topic17828_post89946.html#89946
 .. _InnoSetup: http://www.jrsoftware.org/isinfo.php
-.. _pacopablo-bginfosetup-ba1406e.zip: https://github.com/pacopablo/bginfosetup/zipball/master
+.. _pacopablo-bginfosetup-4.16.1-beta.zip: https://github.com/pacopablo/bginfosetup/zipball/tags/4.16.1-beta
 
 .. images
 
 .. |unzip_project| image:: http://github.com/pacopablo/bginfosetup/raw/master/imgs/unzip_project.png
-.. |toolbar_compile| image:: http://github.com/pacopablo/bginfosetup/raw/master/imgs/toolbar_compile.png
